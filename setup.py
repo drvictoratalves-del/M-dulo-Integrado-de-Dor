@@ -41,9 +41,4 @@ setup(
             "mypy>=1.0.0",
         ],
     },
-    entry_points={
-        "console_scripts": [
-            "pain-management=integrated_pain_management.core:main",
-        ],
-    },
 )

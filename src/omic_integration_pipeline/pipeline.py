@@ -105,7 +105,7 @@ class OmicPipeline:
             "metabolomic": [d for d in self.omic_data["metabolomic"] if d["patient_id"] == patient_id]
         }
 
-        if not any(integrated.values()):
+        if not any([integrated["genomic"], integrated["proteomic"], integrated["metabolomic"]]):
             return None
 
         logger.info(f"Integrated omic data for patient {patient_id}")
