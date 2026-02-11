@@ -1,0 +1,42 @@
+---
+title: "Módulo Integrado de Dor"
+subtitle: "Abordagem Multidisciplinar no Manejo da Dor"
+author:
+  - name: "Dr. Victor Atalves"
+    affiliation: "Instituição de Ensino"
+date: "2026"
+lang: pt-BR
+description: >
+  Módulo educacional integrado sobre o manejo da dor,
+  abrangendo fundamentos, avaliação, tratamento farmacológico
+  e não farmacológico, e cuidados paliativos.
+publisher: "Publicação Independente"
+rights: "© 2026 Dr. Victor Atalves. Todos os direitos reservados."
+keywords:
+  - dor
+  - medicina
+  - analgesia
+  - cuidados paliativos
+  - ensino médico
+
+# Pandoc settings
+toc: true
+toc-depth: 3
+number-sections: true
+reference-section-title: "Referências"
+link-citations: true
+
+# Typography
+mainfont: "Libertinus Serif"
+sansfont: "Libertinus Sans"
+monofont: "Fira Code"
+fontsize: "11pt"
+papersize: "a4"
+margin-left: "2.5cm"
+margin-right: "2cm"
+margin-top: "2.5cm"
+margin-bottom: "2.5cm"
+
+# Bibliography
+bibliography: bibliography.bib
+---
